@@ -8,7 +8,7 @@ if (isset($_POST['email']) && isset($_POST['name']) && isset($_POST['msg']))  {
   $headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
 
   //Email information
-  $admin_email = "youremailaddress@yahoo.com";
+  $admin_email = "team@includedavis.club";
   $subject = "Email from website";
   $email = $_POST['email'];
   $name = $_POST['name'];

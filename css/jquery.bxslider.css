@@ -36,7 +36,7 @@
 	border:  5px solid #fff;
 	left: -5px;
 	background: #fff;
-	
+
 	/*fix other elements on the page moving (on Chrome)*/
 	-webkit-transform: translatez(0);
 	-moz-transform: translatez(0);
@@ -110,7 +110,7 @@
 
 .bx-wrapper .bx-next {
 	right: 10px;
-	background: url(images/controls.png) no-repeat -43px -32px;
+	background: url() no-repeat -43px -32px;
 }
 
 .bx-wrapper .bx-prev:hover {
@@ -148,7 +148,6 @@
 	width: 10px;
 	height: 11px;
 	outline: 0;
-	background: url(images/controls.png) -86px -11px no-repeat;
 	margin: 0 3px;
 }
 

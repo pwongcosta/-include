@@ -75,7 +75,7 @@ $(document).ready(function(){
         autoplay:true,
         autoplayTimeout: 9000
     });
-    
+
     // Sponsors Section BX Slider Settings
     $('ul.sponsor_slider').bxSlider({
         minSlides: 2,
@@ -86,7 +86,7 @@ $(document).ready(function(){
         speed: 30000
     });
 
-    //Hide mobile menu when you click link 
+    //Hide mobile menu when you click link
     $("ul.mobile-nav li a").on('click', function() {
         $('#mobilemenu').collapse('hide');
     });
@@ -230,7 +230,7 @@ $(document).ready(function(){
             success: function(result){
                 //clear fields
                 $("#VolunteerForm").trigger('reset');
-                
+
                 //show success msg
                 $("#volunteeremailsendresponse").html(result);
 
@@ -242,7 +242,7 @@ $(document).ready(function(){
         });
     }
 
-    
+
 
 });
 
@@ -275,9 +275,3 @@ function initMap() {
         map: map
     });
 }
-
-
-
-
-
-
